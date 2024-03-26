@@ -2,6 +2,7 @@ body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
   background-color: #000000;
+  
 }
 
 .layout_padding {
@@ -45,9 +46,14 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 94vh;
+  height: 95vh;
   background: -webkit-gradient(linear, left top, right top, from(#864ddf), to(#203376));
   background: linear-gradient(to right, #000000, #000000);
+  background-image: url(../images/20.svg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10%;
+
 }
 
 .hero_area::before {
@@ -260,6 +266,7 @@ a:focus {
 .slider_detail-box h1 {
   font-weight: bold;
   margin-bottom: 25px;
+  
   
 }
 

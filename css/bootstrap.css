@@ -6237,6 +6237,7 @@ a.close.disabled {
 }
 
 .carousel-item {
+  
   position: relative;
   display: none;
   float: left;
