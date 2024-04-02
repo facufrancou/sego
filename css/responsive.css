@@ -18,6 +18,22 @@
     background-size: cover;
   }
 
+  .modal2 {
+    max-width: 750px;
+    margin: auto;
+    padding: 40px ;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  
+  .modal2 img {
+    margin-bottom: 0px;
+    max-width: 80%;
+    
+  }
+
   .slider_section ol.carousel-indicators {
     display: none;
 
@@ -69,6 +85,21 @@
 @media (max-width: 768px) {
 
 
+  .modal2 {
+    max-width: 550px;
+    margin: auto;
+    padding: 40px ;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  
+  .modal2 img {
+    margin-bottom: 0px;
+    max-width: 80%;
+    
+  }
   .welcome_section {
     padding-top: 70px;
     margin-top: 50px;
